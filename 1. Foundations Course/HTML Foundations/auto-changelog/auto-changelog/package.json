@@ -1,0 +1,8 @@
+{
+  "name": "auto-changelog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/STARBOYJEDI/auto-changelog.git",
+  "author": "Mbuso Mabuza <mbusomabuza0613@gmail.com>",
+  "license": "MIT"
+}
