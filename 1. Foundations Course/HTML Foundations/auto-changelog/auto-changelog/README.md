@@ -1,2 +1,0 @@
-# auto-changelog
-Conventional Commits

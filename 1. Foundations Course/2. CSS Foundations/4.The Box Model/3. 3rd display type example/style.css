@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+}
+p,
+ul {
+    border: 2px solid rebeccapurple;
+}
+
+span,
+li {
+    border: 2px solid red;
+}
+
+ul {
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+}
+
+.inline {
+    display: inline;
+}
+
+
