@@ -3,7 +3,7 @@
     padding: 16px;
     background: plum;
     border: 4px solid indigo;
-    /* display: flex; */
+    display: flex;
     /* justify-content: space-between; */
     align-items: center;
 }
