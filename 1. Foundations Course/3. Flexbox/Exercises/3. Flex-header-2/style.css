@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css3?family=Besley&display=swap');
+@font-face {
+    font-family: 'Besley-font';
+    src: url(CSS.fonts/Besley-Medium.otf);
+}
+
+body {
+    margin: 0;
+    background: #eee;
+    font-family: 'Besley-font', serif;
+}
+
+.header {
+    background: white;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
