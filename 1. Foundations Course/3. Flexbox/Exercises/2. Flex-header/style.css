@@ -24,12 +24,10 @@ a {
     text-decoration: none;
 }
 
-
-a {
+.header {
+    padding: 8px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
 }
-
-
 
 
