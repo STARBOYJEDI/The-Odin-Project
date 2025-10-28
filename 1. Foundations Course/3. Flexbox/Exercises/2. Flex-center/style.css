@@ -25,5 +25,11 @@ a {
 }
 
 
+a {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 
 
