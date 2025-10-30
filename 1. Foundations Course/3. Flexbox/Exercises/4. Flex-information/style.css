@@ -25,11 +25,22 @@ img {
     background: #eee;
 }
 
+body {
+    text-align: center;
+}
 
+.title {
+    margin-bottom: 32px;
+}
 
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
 
-
-
-
+.info {
+    max-width: 200px;
+}
 
 
