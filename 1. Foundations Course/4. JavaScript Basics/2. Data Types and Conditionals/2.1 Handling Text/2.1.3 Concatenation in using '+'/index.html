@@ -23,6 +23,37 @@
             const highestScore = 10;
             const output = `I like the song ${song}. I gave it a score of ${(score / highestScore) * 100}%.`;
             console.log(output); // "I like the song Fight the Power. I gave it a score of 90%."
+
+            // Multiline strings 
+            const newline = `One day you finally knew what you had to do, and began,`;
+            console.log(newline);
+
+            /*
+            One day you finally knew what you had to do, and began,
+            */
+
+            const newline2 = "One day you finally knew\nwhat you had to do, and began,";
+            console.log(newline2);
+
+            /*
+            One day you finally knew
+            what you had to do, and began,
+            */
+
+            // Including quotes in strings
+            // const badQuotes = "She said "I think so!""; // This will cause an error
+            const goodQuotes1 = 'She said "I think so!"';
+            const goodQuotes2 = `She said "I'm not going in there!"`;
+            console.log(goodQuotes1);
+            console.log(goodQuotes2);
+
+            const bigmouth = 'I\'ve got no right to take my place...';
+            console.log(bigmouth);
+
+            // Numbers vs. strings
+            const coolBandName = "Front ";
+            const number = 242;
+            console.log(coolBandName + number); // "Front 242"
         </script>
     </body>
 </html>
