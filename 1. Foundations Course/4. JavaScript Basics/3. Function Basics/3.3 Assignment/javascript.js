@@ -10,10 +10,15 @@ function multiply(num1, num2) {
 }
 console.log(multiply(3, 4));
 
-
-
-
-
+// 3. Write a function called capitalize that takes a string and returns that string with only
+// the first letter capitalized. Make sur that it can take strings that
+//are lowercase, UPPERCASE or BOTH.
+function capitalize(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+}
+console.log(capitalize("abcd"));
+console.log(capitalize("ABCD"));
+console.log(capitalize("aBcD"));
 
 
 
