@@ -20,7 +20,11 @@ console.log(capitalize("abcd"));
 console.log(capitalize("ABCD"));
 console.log(capitalize("aBcD"));
 
-
+// 4. Write a function called lastLetter that takes a string and returns the very last letter of that string.
+function lastLetter(str) {
+    return str.charAt(str.length -1);
+}
+console.log(lastLetter("abcd"));
 
 
 
