@@ -10,9 +10,7 @@ showMessage5('Ann', "What's up?"); // Ann: What's up? (**)
 
 //Here’s one more example: we have a variable from and pass it to the function. Please note: the function changes from, but the change is not seen outside, because a function always gets a copy of the value:
 function showMessage6(from, text) {
-
     from = '*' + from + '*'; // make "from" look nicer
-
     alert( from + ': ' + text );
 }
 
