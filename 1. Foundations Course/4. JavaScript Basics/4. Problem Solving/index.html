@@ -8,13 +8,15 @@
     <script src="javascript.js"></script>
 </head>
 <body>
+    <div id="output"></div>
     <script>
         let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
+        let outputDiv = document.getElementById("output");
         for (let i = 1; i <= answer; i++) {
             if (i % 3 === 0) {
-                console.log("Fizz");
+                outputDiv.innerHTML += "Fizz<br>";
             } else {
-                console.log(i);
+                outputDiv.innerHTML += i + "<br>";
             }
         }
     </script>
