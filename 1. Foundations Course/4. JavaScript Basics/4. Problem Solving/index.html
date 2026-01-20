@@ -13,9 +13,11 @@
         let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
         let outputDiv = document.getElementById("output");
         for (let i = 1; i <= answer; i++) {
-            if (i % 3 === 0) {
+            if (i % 3 === 0 && i % 5 === 0) {
+                outputDiv.innerHTML += "FizzBuzz<br>";
+            } else if (i % 3 === 0) {
                 outputDiv.innerHTML += "Fizz<br>";
-            } else if (i % 5 === 0) {
+            } else if (i % 5 === 0){
                 outputDiv.innerHTML += "Buzz<br>";
             } else {
                 outputDiv.innerHTML += i + "<br>";
