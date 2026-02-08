@@ -1,22 +1,31 @@
-const p = document.querySelector('#p');
-const content1 = document.createElement("p");
-content1.textContent = "Hey I'm red!";
-p.style.color = "red";
-p.appendChild(content1);
+const newP = document.createElement('p');
+newP.textContent = `Hey I'm red!`;
+document.body.appendChild(newP);
+newP.style.color = "red";
 
-const h3 = document.createElement("h3");
-h3.textContent = "I'm a blue h3!";
-h3.style.color = "blue";
-p.appendChild(h3);
+const newH3 = document.createElement('h3');
+newH3.textContent = `I'm a blue h3!`;
+document.body.appendChild(newH3);
+newH3.style.color = "blue";
 
+const div = document.createElement('div');
+// div.textContent = `Custom border`;
+div.style.borderWidth = '3px';
+div.style.borderStyle = 'solid';
+div.style.padding = '30px';
+div.style.display = 'flex';
+div.style.margin = '.5rem';
+div.style.minHeight = '1rem';
+div.style.flexGrow = 1;
+document.body.appendChild(div);
 
-const border = document.querySelector("#border");
-const content2 = document.createElement("div");
-content2.classList.add("content");
-content2.textContent = "This is the glorious text-content!";
-border.appendChild(content2);
+const heading = document.createElement('h1');
+heading.textContent = `I'm in a div`;
+div.appendChild(heading);
 
-
+const paragraph = document.createElement('p');
+paragraph.textContent = `ME TOO!`;
+div.appendChild(paragraph);
 
 
 

@@ -3,7 +3,7 @@
 // const parents = Array.from(document.getElementsByClassName("parent")); // creates an array of the parent divs
 // grandparent.style.backgroundColor = "blue"; // changes the background color of the grandparent div
 // const parents = Array.from(document.getElementsByClassName("parent")); // creates an array of the parent divs
-//const grandparent = document.querySelector(".grandparent");
+// const grandparent = document.querySelector(".grandparent");
 // parents.forEach(changeColor);
 // const parent = document.querySelector(".parent"); // selects the first parent div
 // const parents = document.querySelectorAll(".parent"); // selects all parent divs
