@@ -11,3 +11,6 @@ const person = {
         console.log(`Hi! I'm ${this.name[0]}.`);
     },
 };
+
+// Shorter and more effient 
+
