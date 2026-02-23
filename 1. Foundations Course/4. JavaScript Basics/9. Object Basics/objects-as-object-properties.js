@@ -1,5 +1,8 @@
 const person = {
-    name: ["Bob", "Smith"], // an array that holds 2 strings
+    name: {
+        first: "Bob",
+        last: "Smith",
+    },
     age: 32,
     bio() {
         // 'this' refers to the object the method belongs to - in this case, person
